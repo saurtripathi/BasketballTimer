@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    align-items: center;
+}
+
+#s1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#s2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hs {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    width: 149px;
+    height: 36px;
+}
+
+.points {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    text-shadow: 0 0 151px #0fa,
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+    /* border: 1px dotted white; */
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: #9AABD8;
+}
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+
+.button {
+    background-color: #1B244A;
+    border: 2px solid #0369A1;
+    border-radius: 5px;
+    ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #0284C7;
+    transform: translateY(4px);
+}

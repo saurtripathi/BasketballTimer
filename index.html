@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="s1-container">
+            <h2 class="hs">HOME</h2>
+            <div class="points" id="points-home">0</div>
+            <div class="btn-div">
+                <button class="btn" onclick="incrementHomeByOne()">+<span>1</span></button>
+                <button class="btn" onclick="incrementHomeByTwo()">+<span>2</span></button>
+                <button class="btn" onclick="incrementHomeByThree()">+<span>3</span></button>
+            </div>
+        </div>
+        <div id="s2-container">
+            <h2 class="hs">GUEST</h2>
+            <div class="points" id="points-guest">0</div>
+            <div class="btn-div">
+                <button class="btn" onclick="incrementGuestByOne()">+<span>1</span></button>
+                <button class="btn" onclick="incrementGuestByTwo()">+<span>2</span></button>
+                <button class="btn" onclick="incrementGuestByThree()">+<span>3</span></button>
+            </div>
+        </div>
+    </div>
+    <button class="button" onclick="startGame()">Start Game</button>
+
+</body>
+
+</html>
