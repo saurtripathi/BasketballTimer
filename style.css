@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 100px auto;
+    margin: 160px auto;
     width: 575px;
     height: 385px;
     background: #1B244A;
@@ -106,7 +106,7 @@ body {
     text-decoration: none;
 
     font-size: 16px;
-    margin-top: -100px;
+    margin-top: -225px;
     margin-left: auto;
     /* margin: auto 20px; */
     cursor: pointer;
