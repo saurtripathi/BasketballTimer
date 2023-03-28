@@ -1,13 +1,14 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #9AABD8;;
 }
 
 #container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: auto;
+    margin: 100px auto;
     width: 575px;
     height: 385px;
     background: #1B244A;
@@ -93,17 +94,21 @@ body {
 
 
 .button {
+
+    display: block; 
+    margin: auto;   
     background-color: #1B244A;
     border: 2px solid #0369A1;
     border-radius: 5px;
-    ;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: block;
+
     font-size: 16px;
-    margin: auto;
+    margin-top: -100px;
+    margin-left: auto;
+    /* margin: auto 20px; */
     cursor: pointer;
 }
 
